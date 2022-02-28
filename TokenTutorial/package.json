@@ -1,0 +1,22 @@
+{
+  "//":"json格式,定义项目所需的各种配置,和当前项目依赖的资源",
+  "#name": "定义项目的名称, version: 版本",
+  "name": "tutorialtoken",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "#script":"定义可以执行的脚本  npm run dev中的dev为定义的脚本名词",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "#lite-server": "lite-server,可以用来搭建本地server服务,默认会读取当前bs-config.json文件",
+    "lite-server": "^2.3.0"
+  }
+}
